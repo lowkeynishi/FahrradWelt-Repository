@@ -12,18 +12,17 @@
 
 <header>
     <div class="logo">
-    <img src="./assets/images/fahrrad_logo.png" >
-    <h1>Willkommen zu unserem FahrradShop!</h1>
+    <img src="./assets/images/fahrrad_logo.png" alt="fahhrad logo" >
+    <h1>Willkommen bei FahrradWelt &#8722; Dein Partner rund ums Rad!</h1>
     </div>
     <nav>
-        <a href="#startseite">startseite</a>
-        <a href="#contact">contact</a>
-        <a href="#über-uns">&#252;ber uns</a>
+        <a href="#startseite">Startseite</a>
+        <a href="#contact">Formular</a>
+        <a href="#ueber-uns">&#252;ber uns</a>
     </nav>
 </header>
 
 <section id="startseite">
-  <h1>Willkommen bei FahrradWelt &#8722; Dein Partner rund ums Rad!</h1>
   <p>
     Entdecke die Freiheit auf zwei R&#228;dern! Ob du ein sportliches Mountainbike, ein schnelles Rennrad, ein bequemes Citybike oder ein modernes E-Bike suchst &#8722; bei uns findest du garantiert das passende Fahrrad f&#252;r deinen Alltag, dein Abenteuer oder deinen Weg zur Arbeit.
   </p>
@@ -34,7 +33,7 @@
     Unser Ziel ist es, dir das beste Fahrerlebnis zu erm&#246;glichen &#8722; sicher, bequem und mit Stil. Starte jetzt dein neues Radabenteuer und finde dein Traumfahrrad bei uns!
   </p>
   <p>
-    Bei Fragen sind wir jederzeit f&#252;r dich da. Viel Spa&#946; beim St&#246;bern!
+    Bei Fragen sind wir jederzeit f&#252;r dich da. Viel Spa&#223; beim St&#246;bern!
   </p>
 </section>
 
@@ -67,7 +66,7 @@
     </div>
   </div>
   <div class="fahrad-category">
-    <h3>Kinderfahrr&#228;der</h3>
+    <h3 id="ueber-uns">Kinderfahrr&#228;der</h3>
     <div class="fahrad-karten">
       <div class="fahrad-karte">
         <h4>Woom 3 (16")</h4>
@@ -81,7 +80,7 @@
   </div>
 </section>
 
-<section id="über-uns">
+<section id="contact">
   <h2>&#220;ber uns</h2>
   <p>
     FahrradWelt ist mehr als nur ein Online-Shop &#8722; wir sind leidenschaftliche Radfahrer, Technik-Fans und Umweltsch&#252;tzer. Seit 2023 setzen wir uns daf&#252;r ein, Mobilit&#228;t nachhaltiger, ges&#252;nder und zug&#228;nglicher zu machen.
@@ -98,9 +97,9 @@
 </section>
 
 <section class="body">    
-<fieldset id="contact">
-    <legend><h3>Bestellung</h3></legend>
-    <form action="./cgi-bin/skript.cgi" target="_blank">
+<fieldset id="formular">
+    <legend><h3>Bestellungsformular</h3></legend>
+    <form action="./cgi-bin/script.cgi" target="_blank">
         <label>
             Vorname:
             <input type="text" name="Vorname">
@@ -119,7 +118,10 @@
         <label for="man">M&#228;nnlich</label>
         <input id="man" type="radio" name="Geschlecht" value="man">
         <label for="frau">Weiblich</label>
-        <input id="frau" type="radio" name="Geschlecht" value="frau"><br>
+        <input id="frau" type="radio" name="Geschlecht" value="frau">
+	<label for="divers">Divers</label>
+        <input id="divers" type="radio" name="Geschlecht" value="divers"><br>
+
         </div>
         </div>
         <label for="fahrrad">Fahrrad:</label>
@@ -136,7 +138,7 @@
             <input type="email" name="Email" placeholder="beispiel@gmail.com">
         </label><br>
         <label for="feedback">Feedback:</label>
-        <textarea id="feedback" name="message" type="name" rows="6" cols="50" placeholder="schreiben hier ihre Feedback"></textarea><br>
+        <textarea id="feedback" name="message" rows="6" cols="50" placeholder="schreiben hier ihre Feedback"></textarea><br>
         <input type="submit" value="absenden">
     </form>
     </fieldset>
@@ -145,10 +147,8 @@
 <footer>
     <nav>
         <br>
-        <a href="#contact">Kontact</a>
-        <a href="#hallo">hallo</a>
-        <a href="#hallo">hallo</a>
-        <br>
+        <a href="mailto:kitiozan@th-brandenburg.de,muhd.danishk@gmail.com">&#128231;Contact-Us</a>
+        <a href="https://www.th-brandenburg.de/startseite/"><img class="preview" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVvn0M_huSyHdRXBUAlxKuPnHFmmeUw4TLsg&s" alt="ein bild von THB Logo"> THB</a>        <br>
     </nav>    
 </footer>
 </body>
